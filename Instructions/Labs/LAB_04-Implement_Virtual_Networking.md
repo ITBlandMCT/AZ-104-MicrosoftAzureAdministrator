@@ -253,7 +253,7 @@ In this task, we create an Application Security Group and a Network Security Gro
     | Destination port ranges | `*` |
     | Protocol | **Any** |
     | Action | **Deny** |
-    | Priority | **`4096`40096** |
+    | Priority | **`4096`** |
     | Name | `DenyInternetOutbound` |
 
 
