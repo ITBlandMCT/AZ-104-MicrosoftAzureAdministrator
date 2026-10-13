@@ -229,7 +229,7 @@ In this task, we create an Application Security Group and a Network Security Gro
     | Source port ranges |  * |
     | Destination | **Any** |
     | Service | **Custom** (notice your other choices) |
-    | Destination port ranges | **`80,443`80,443** |
+    | Destination port ranges | **`80,443`** |
     | Protocol | **TCP** |
     | Action | **Allow** |
     | Priority | **100** |
