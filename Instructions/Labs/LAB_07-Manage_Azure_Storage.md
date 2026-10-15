@@ -226,7 +226,7 @@ In this task, you will create and configure Azure File shares. You will use Stor
 
 ### Restrict network access to the storage account
 
-1. In the portal, search for and select **Network foundation**.
+1. In the portal, search for and select **`Network foundation`**.
 
 1. Under `Virtual networks` click **Create**. On the Basics tab, set **Resource group** as `az104-rg7` and give the virtual network a **name**, `vnet1`.
 
