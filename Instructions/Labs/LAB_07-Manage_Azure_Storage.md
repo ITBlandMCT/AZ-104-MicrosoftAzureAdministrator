@@ -128,7 +128,7 @@ In this task, you will create a blob container and upload an image. Blob contain
     | Policy type | **Time-based retention**  |
     | Set retention period for | `180` days |
 
-1. Select **Save**.
+1. Select **Save**. Close the **Access policy** blade.
 
 ### Manage blob uploads
 
