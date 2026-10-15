@@ -60,11 +60,13 @@ In this task, you will create and configure a storage account. The storage accou
 
     >**Did you know?** You should use the Standard performance tier for most applications. Use the Premium performance tier for enterprise or high-performance applications. 
 
-1. On the **Advanced** and **Security** tabs, use the informational icons to learn more about the choices. Take the defaults.
+1. On the **Advanced** tab use the informational icons to learn more about the choices. Take the defaults.
    
-1. On the **Networking** tab, in the **Public network access** section, select **Disable**. This will restrict inbound access while allowing outbound access. 
+1. On the **Networking** tab, in the **Public network access** section, select **Disable**. This will restrict inbound access while allowing outbound access.
 
 1. Review the **Data protection** tab. Notice 7 days is the default soft delete retention policy. Note you can enable versioning for blobs. Accept the defaults.
+
+1. On the **Security** tab use the informational icons to learn more about the choices. Take the defaults.
 
 1. Review the **Encryption** tab. Notice the additional security options. Accept the defaults.
 
