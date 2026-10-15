@@ -53,8 +53,8 @@ In this task, you will create and configure a storage account. The storage accou
     | Resource group        | **az104-rg7** (create new) |
     | Storage account name  | any globally unique name between 3 and 24 in length consisting of letters and digits |
     | Region                | **(US) East US**  |
+    | Primary service       | **Azure Blob Storage or Azure Data Lake Storage** |
     | Performance           | **Standard** (notice the Premium option) |
-    | Preferred storage type | **Azure Blob Storage or Azure Data Lake Storage** |
     | Redundancy            | **Geo-redundant storage** (notice the other options)|
     | Make read access to data available in the event of regional unavailability. | Check the box |
 
