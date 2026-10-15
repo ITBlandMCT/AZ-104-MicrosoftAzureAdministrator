@@ -235,10 +235,10 @@ In this task, you will create and configure Azure File shares. You will use Stor
 1. Wait for the virtual network to deploy, and then select **Go to resource**.
 
 1. In the **Settings** section, select the **Service endpoints** blade.
-    + Select **Add**. 
-    + In the **Service** drop-down select **Microsoft.Storage**.
-    + Leave the **Service endpoint policies** dropdown at its default of **0 selected**.
+    + Select **Add service endpoints**.
     + In the **Subnets** drop-down check the **Default** subnet.
+    + In the **Service** drop-down search for and select **`Microsoft.Storage`**.
+    + Leave the **Service endpoint policies** dropdown at its default of **0 selected**.
     + Click **Add** to save your changes.  
 
 1. Return to your storage account.
