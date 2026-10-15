@@ -136,7 +136,7 @@ In this task, you will create a blob container and upload an image. Blob contain
 
 1. Next, navigate to **Access Control (IAM)**, click **Add** and select **Add role assignment**. Search for and select the **`Storage Blob Data Contributor`** role and assign it to your user account, then click **Review + assign** twice.
 
-1. Next, do the same steps as in the previous step to assign the **Storage File Data Privileged Contributor** role.
+1. Next, do the same steps as in the previous step to assign the **`Storage File Data Privileged Contributor`** role.
 
 1. Once access is configured,  select your **data** container and then click **Upload**.
 
@@ -169,8 +169,6 @@ In this task, you will create a blob container and upload an image. Blob contain
 ### Configure limited access to the blob storage
 
 1. Browse back to the file that you uploaded and select the ellipsis (…) to the far right, then select **Generate SAS**.
-
-1. Note the warning banner stating that authorization with Shared Key is disabled for this account — this means the Account key signing option will be unavailable.
   
 1. Specify the following settings (leave others with their default values):Browse back to the file that you uploaded and select the ellipsis (…) to the far right, then select **Generate SAS** and specify the following settings (leave others with their default values):
 
