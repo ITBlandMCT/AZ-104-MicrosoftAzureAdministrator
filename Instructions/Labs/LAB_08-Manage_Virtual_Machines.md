@@ -295,12 +295,12 @@ In this task, you scale the virtual machine scale set using a custom scale rule.
     | Metric namespace | **Virtual Machine Host** |
     | Metric name | **Percentage CPU** (review your other choices) |
     | Operator | **Greater than** |
-    | Metric threshold to trigger scale action | **70** |
+    | Metric threshold to trigger scale action | **`70`** |
     | Duration (minutes) | **10** |
     | Time grain statistic | **Average** |
     | Operation | **Increase percent by** (change the default) |
     | Cool down (minutes) | **5** |
-    | Percentage | **50** |
+    | Percentage | **`50`** |
 
     >**Note**: The default of Operation is "Increase count by",you need to change it to "Increase percent by"
 
@@ -319,9 +319,9 @@ In this task, you scale the virtual machine scale set using a custom scale rule.
     | Setting | Value |
     | --- | --- |
     | Operator | **Less than** |
-    | Threshold | **30** |
+    | Threshold | **`30`** |
     | Operation | **decrease percentage by** (review your other choices) |
-    | Percentage | **50** |
+    | Percentage | **`50`** |
 
 1. Be sure to **Save** your changes.
 
@@ -333,9 +333,9 @@ In this task, you scale the virtual machine scale set using a custom scale rule.
 
     | Setting | Value |
     | --- | --- |
-    | Minimum | **2** |
-    | Maximum | **10** |
-    | Default | **2** |
+    | Minimum | **`2`** |
+    | Maximum | **`10`** |
+    | Default | **`2`** |
 
 1. Be sure to **Save** your changes
 
