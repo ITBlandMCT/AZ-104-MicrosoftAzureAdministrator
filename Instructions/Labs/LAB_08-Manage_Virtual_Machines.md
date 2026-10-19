@@ -365,6 +365,8 @@ In this task, you scale the virtual machine scale set using a custom scale rule.
     > [!NOTE]
     > Use **Standard_D2s_v5** first. If the command fails because the size is unavailable or Azure lacks capacity, rerun it with **Standard_D2s_v6**. If that command fails for the same reason, rerun it with **Standard_D2s_v7**.
 
+1. When prompted use the Username: `localadmin` and **Provide a secure password**
+
 1. Once the command completes, use **Get-AzVM** to list the virtual machines in your resource group.
 
     ```powershell
@@ -375,7 +377,7 @@ In this task, you scale the virtual machine scale set using a custom scale rule.
 
 1. Verify your new virtual machine is listed and the **Status** is **Running**.
 
-1. Use **Stop-AzVM** to deallocate your virtual machine. Type **Yes** to confirm.
+1. Use **Stop-AzVM** to deallocate your virtual machine. Type **`Y`** to confirm.
 
     ```powershell
     Stop-AzVM `
