@@ -78,6 +78,8 @@ In this task, you review the deployment of the container instance. By default, t
 
 1. Copy the value of the container instance **FQDN**, open a new browser tab, and navigate to the corresponding URL.
 
+    >**Note**: You must specify **http://** (*not* http**s**://) in the URL to see the page.
+
      ![Screenshot of the ACI overview page in the portal.](../media/az104-lab09b-aci-overview.png)
 
 1. Verify that the **Welcome to Azure Container Instance** page is displayed. Refresh the page several times to create some log entries then close the browser tab.  
