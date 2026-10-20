@@ -44,7 +44,7 @@ In this task, you deploy a virtual machine and the resources required to collect
 
 1. Sign in to the [Azure portal](https://portal.azure.com).
 
-1. Search for and select **Deploy a custom template**.
+1. Search for and select **`Deploy a custom template`**.
 
 1. On the custom deployment page, select **Build your own template in the editor**.
 
