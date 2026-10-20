@@ -146,7 +146,7 @@ In this task, you verify that the Azure Monitor Agent is sending heartbeat and V
 
 In this task, you create an action group that sends an email notification when the alert is triggered.
 
-1. In the Azure portal, search for and select **Monitor**.
+1. In the Azure portal, search for and select **`Monitor`**.
 
 1. Select **Alerts**, and then select **Action groups**.
 
