@@ -59,7 +59,7 @@ In this task, you deploy a virtual machine and the resources required to collect
    | Setting | Value |
    | --- | --- |
    | Subscription | Your Azure subscription |
-   | Resource group | **az104-rg11**; create it if necessary |
+   | Resource group | **`az104-rg11`**; create it if necessary |
    | Region | **East US** |
    | VM size | Select an available size. Use **Standard_D2s_v5** if available. |
    | Username | `localadmin` |
